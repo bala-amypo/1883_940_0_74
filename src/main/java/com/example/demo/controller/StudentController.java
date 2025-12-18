@@ -1,4 +1,5 @@
 package com.example.demo.entity;
+
 import java.time.LocalDate;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,7 +12,7 @@ import jakarta.validation.constraints.Size;
 
 @Entity
  @Table(name="StudentTable")
-public class Student {
+public class StudentController{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
